@@ -1,0 +1,43 @@
+{
+  "name": "usecollection",
+  "version": "1.0.0",
+  "description": "A react hook to manage CRUD for generic data structure",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huang47/useCollection.git"
+  },
+  "keywords": [
+    "hook",
+    "react",
+    "collection",
+    "crud",
+    "zero-dependency"
+  ],
+  "author": "huang47",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huang47/useCollection/issues"
+  },
+  "homepage": "https://github.com/huang47/useCollection#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
+}
